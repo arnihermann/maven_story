@@ -8,7 +8,8 @@ public class HelloWorldTest {
 
     @Test
     public void greetResultsInHello() {
-        assertEquals("Hello world", "Hello world");
+        World world = new World();
+        assertEquals("Hello world", world.greet());
     }
 
 }
