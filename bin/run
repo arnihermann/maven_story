@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "not implemented"
-exit 1
+cd target/classes
+java com.example.helloworld.HelloWorld
+
